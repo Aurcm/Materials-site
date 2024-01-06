@@ -1,0 +1,13 @@
+.box-component {
+    background-image: url('./assets/img1.jpg'); /* Adjust the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  

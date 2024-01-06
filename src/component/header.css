@@ -1,0 +1,39 @@
+/* Default styles for larger screens (laptop/desktop) */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Default styles for buttons */
+.header-buttons {
+  display: flex;
+}
+
+/* Media query for screens with a maximum width of 600px (adjust as needed, typically mobile) */
+@media (max-width: 600px) {
+  /* Center-align text and stack buttons vertically for mobile */
+  .header {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  /* Center-align buttons for mobile */
+  .header-buttons.responsive {
+    justify-content: center;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333; /* Customize the background color as needed */
+    color: white; /* Customize the text color as needed */
+    padding: 10px;
+    z-index: 100; /* Ensure it's above other elements */
+  }
+  
+}
